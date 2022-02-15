@@ -2,6 +2,10 @@
   const database = require("./db");
   const Passagem = require("../models/passagem");
   const fs = require("fs").promises;
+  var cors = require("cors");
+  const express = require("express");
+  const api = express();
+
   await database.sync();
 
   async function listarArquivosDir(diretorio, arquivos) {
@@ -26,5 +30,12 @@
     }
   }
 
-  listarArquivosDir("../json/");
+  const routes = require("./routes");
+  api.use(cors());
+  api.use(express.json());
+  api.use(routes);
+
+  api.listen(3001);
+
+  listarArquivosDir("../../json/");
 })();
