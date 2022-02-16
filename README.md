@@ -1,6 +1,6 @@
 # :monocle_face: Leitor JSON 
 
-Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas informações e grava no banco de dados o que foi lido, utilizando alguns conceitos de programação orientada a objetos.
+Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas informações e grava no banco de dados o que foi lido apresentando o resultado em uma página web. O programa também faz o uso de alguns conceitos de programação orientada a objetos.
 
 # :computer: Desenvolvido com :
 
