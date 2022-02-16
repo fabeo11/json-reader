@@ -1,8 +1,8 @@
-# Leitor JSON :monocle_face:
+# :monocle_face: Leitor JSON 
 
-Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas informações e grava no banco de dados o que foi lido.
+Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas informações e grava no banco de dados o que foi lido, utilizando alguns conceitos de programação orientada a objetos.
 
-# Desenvolvido com:
+# :computer: Desenvolvido com :
 
 <div>  
   <img src="https://user-images.githubusercontent.com/77861206/107676832-57368c00-6c78-11eb-9288-cd933e208229.png" width="150px">
