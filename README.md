@@ -6,11 +6,13 @@ Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas 
 
 <div>
   <img src="https://raw.githubusercontent.com/ivanoff/react-native-ico-software-development/HEAD/static/react.png" width="100px">
+  <img src="https://user-images.githubusercontent.com/77861206/107676832-57368c00-6c78-11eb-9288-cd933e208229.png" width="100px">
+  <img src="https://marcas-logos.net/wp-content/uploads/2020/11/MySQL-logo.png" width="100px">
 </div>
 
 ## Como iniciar o projeto? :thinking:
 
-Para iniciar o projeto, basta inicializar o banco de dados (com nodeJs) executando o arquivo index, que se encontra em src/API/services/index.js e aí insira o seguinte comando:
+Para iniciar o projeto, basta inicializar o banco de dados (com nodeJs) executando o arquivo index, que se encontra em src/API/services/index.js e insira os seguintes comandos:
 
 ### `node index`
 
