@@ -13,7 +13,7 @@ Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas 
 </div>
 
 ## Como iniciar o projeto? :thinking:
-Importante: É necessário ter instalado o <a src="https://dev.mysql.com/downloads/installer/">mysql</a> e alterar os parametros no arquivo de  configuração do banco de dados "bd.js", localizado em ./src/API/services.
+Importante: É necessário ter instalado o <a src="https://dev.mysql.com/downloads/installer/">mysql</a> <a src="https://nodejs.org/pt-br/download/">NodeJs</a>e alterar os parametros no arquivo de  configuração do banco de dados "bd.js", localizado em ./src/API/services.
 
 Primeiramente, vamos instalar todas as depêndencias com o comando: 
 ### `npm install`
