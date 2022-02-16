@@ -8,7 +8,7 @@ Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas 
   <img src="https://user-images.githubusercontent.com/77861206/107676832-57368c00-6c78-11eb-9288-cd933e208229.png" width="100px">
   <img src="https://marcas-logos.net/wp-content/uploads/2020/11/MySQL-logo.png" width="100px">
   <br>
-  <img src="https://i.stack.imgur.com/kyKz5.png" width="35px">
+  <img src="https://flyclipart.com/thumb2/react-logo-import-io-221727.png" width="100px">
 </div>
 
 ## Como iniciar o projeto? :thinking:
