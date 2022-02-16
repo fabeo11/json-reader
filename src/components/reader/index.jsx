@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PostData from "../../json/08002fluxo_21012020153212363_2.json";
+import "./styles.css";
 
-class Reader extends Component {
+class Reader extends React.Component {
   state = {
     dados: [],
   };
@@ -20,8 +20,9 @@ class Reader extends Component {
     return (
       <div>
         <h1>Lista dos dados</h1>
-        {this.state.dados.map((item) => (
-          <table border="1">
+
+        <table border="1">
+          <thead>
             <tr>
               <th>PLACA</th>
               <th>DATA</th>
@@ -29,17 +30,20 @@ class Reader extends Component {
               <th>EQUIPAMENTO</th>
               <th>FAIXA</th>
             </tr>
+          </thead>
+        </table>
+
+        {this.state.dados.map((item) => (
+          <table border="1">
             <tr>
               <td>{item.placa}</td>
-              <td>{item.data}</td>
+              <td>{item.data.toString().split("T")[0]}</td>
               <td>{item.hora}</td>
               <td>{item.equipamento}</td>
               <td>{item.faixa}</td>
             </tr>
           </table>
         ))}
-
-        <hr></hr>
       </div>
     );
   }
