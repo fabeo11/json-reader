@@ -5,7 +5,7 @@ Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas 
 # Desenvolvido com:
 
 <div>
-  <img src="https://raw.githubusercontent.com/ivanoff/react-native-ico-software-development/HEAD/static/react.png" width="100px">
+  <img src="https://raw.githubusercontent.com/ivanoff/react-native-ico-software-development/HEAD/static/react.png" width="40px">
   <img src="https://user-images.githubusercontent.com/77861206/107676832-57368c00-6c78-11eb-9288-cd933e208229.png" width="100px">
   <img src="https://marcas-logos.net/wp-content/uploads/2020/11/MySQL-logo.png" width="100px">
 </div>
