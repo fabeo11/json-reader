@@ -14,6 +14,9 @@ Esse projeto lê um diretório local com arquivos Json, obtém suas respectivas 
 
 ## Como iniciar o projeto? :thinking:
 
+Primeiramente, vamos instalar todas as depêndencias com o comando: 
+### `npm install`
+
 Para iniciar o projeto, basta inicializar o banco de dados (com nodeJs) executando o arquivo index, que se encontra em src/API/services/index.js e insira os seguintes comandos:
 
 ### `node index`
