@@ -1,7 +1,9 @@
-table {
-  display: contents;
-  align-content: center;
+
+
+.tabelaDadosJson{
+  justify-content: center;
 }
 
-div {
+table {
+  display: contents;
 }

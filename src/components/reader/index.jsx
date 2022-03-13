@@ -16,11 +16,23 @@ class Reader extends React.Component {
       });
   }
 
+  inputCaminhoDir = (e)=> {
+    if(e.keyCode === 13){
+      console.log(e.target.value);
+    }
+    
+  }
+
   render() {
     return (
-      <div>
+      <div className="tabelaDadosJson">
         <h1>Lista dos dados</h1>
-
+        <form>
+          <label>
+            <input type="text" name="caminhoDir" />
+          </label>
+          <input type="submit" value="Enviar" />
+        </form>
         <table border="1">
           <thead>
             <tr>
