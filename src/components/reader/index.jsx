@@ -16,23 +16,28 @@ class Reader extends React.Component {
       });
   }
 
-  inputCaminhoDir = (e)=> {
-    if(e.keyCode === 13){
-      console.log(e.target.value);
-    }
-    
-  }
-
   render() {
     return (
-      <div className="tabelaDadosJson">
-        <h1>Lista dos dados</h1>
-        <form>
-          <label>
-            <input type="text" name="caminhoDir" />
-          </label>
-          <input type="submit" value="Enviar" />
-        </form>
+      <div className="componentTabelaDadosJson">
+        <div className="insertDados">
+          <h1>leitor json!</h1>
+          <h2>É só inserir o caminho do diretório abaixo!</h2>
+          <form>
+            <label>
+              <input type="text" id="boxCaminhoDir" />
+            </label>
+            <input type="submit" value="Enviar" id="botaoEnviar" onClick=
+            {
+              (e)=>
+              {
+                let dir = document.getElementById("boxCaminhoDir");
+                console.log(dir);
+              }
+
+            }/>
+          </form>
+        </div>
+
         <table border="1">
           <thead>
             <tr>
