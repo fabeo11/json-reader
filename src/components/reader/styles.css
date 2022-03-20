@@ -15,7 +15,7 @@
 .componentTabelaDadosJson .insertDados h2{
   display: flex;
   justify-content: center; 
-  color:#000003;
+  color:#1d2949;
   font-family: 'Bebas Neue', cursive;
   font-size: 30px;
 }
@@ -29,16 +29,16 @@
 .insertDados{
   width: 100vw;
   justify-content:center;
-  height: 70vh;
+  height: 30vh;
 }
 
 #filled-basic{
   color:#000003;
-  width: 35vw;
+  width: 80vw;
 }
 
 #btnDir{
-  margin-left: 15px;
+  margin-left: 10px;
   background-color: #dbd3ff;
 }
 table {

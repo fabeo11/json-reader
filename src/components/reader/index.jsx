@@ -8,6 +8,7 @@ class Reader extends React.Component {
     dados: [],
   };
 
+  
   componentDidMount() {
     fetch("http://localhost:3001/passagems")
       .then((res) => res.json())
@@ -33,7 +34,7 @@ class Reader extends React.Component {
                   alert(valueTextField);
                 }
               }
-            }>Outlined
+            }>Pesquisar
             </Button>
           </form>
         </div>

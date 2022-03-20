@@ -2,16 +2,9 @@ const Sequelize = require("sequelize");
 const database = require("../services/db");
 
 const Passagem = database.define("passagem", {
-  id: {
-    type: Sequelize.INTEGER,
-    autoIncrement: true,
-    allowNull: false,
-    primaryKey: true,
-  },
   placa: {
     type: Sequelize.STRING,
-    allowNull: false,
-    unique: true,
+    allowNull: false
   },
   data: {
     type: Sequelize.DATE,
