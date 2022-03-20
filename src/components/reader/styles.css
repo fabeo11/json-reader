@@ -1,7 +1,7 @@
 .componentTabelaDadosJson{
   padding: 10px;
   max-width: 100vw;
-  background-color: #cad3e8;
+  background-color: #8e94f0;
 }
 
 .componentTabelaDadosJson .insertDados h1{
@@ -15,9 +15,9 @@
 .componentTabelaDadosJson .insertDados h2{
   display: flex;
   justify-content: center; 
-  color:#79787e;
+  color:#000003;
   font-family: 'Bebas Neue', cursive;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .componentTabelaDadosJson .insertDados form{
@@ -29,9 +29,18 @@
 .insertDados{
   width: 100vw;
   justify-content:center;
-
+  height: 70vh;
 }
 
+#filled-basic{
+  color:#000003;
+  width: 35vw;
+}
+
+#btnDir{
+  margin-left: 15px;
+  background-color: #dbd3ff;
+}
 table {
   padding:10px;
   margin: auto;

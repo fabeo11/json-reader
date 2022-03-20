@@ -1,0 +1,35 @@
+.container{
+    background-color: #4f5b97;
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container h2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #dbd3ff;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 1em; 
+}
+
+.container ul{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    margin-top: 7vh;
+}
+
+.container ul li{  
+    margin: 10px;
+    font-size: 50px;
+}
+
+.container ul li:hover{  
+    color:#4f5b97;
+}
+
+.container ul li:visited{  
+    color: inherit;
+}

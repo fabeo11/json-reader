@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./styles.css";
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
 
 class Reader extends React.Component {
   state = {
@@ -20,21 +22,19 @@ class Reader extends React.Component {
     return (
       <div className="componentTabelaDadosJson">
         <div className="insertDados">
-          <h1>leitor json!</h1>
           <h2>É só inserir o caminho do diretório abaixo!</h2>
-          <form>
-            <label>
-              <input type="text" id="boxCaminhoDir" />
-            </label>
-            <input type="submit" value="Enviar" id="botaoEnviar" onClick=
-            {
-              (e)=>
-              {
-                let dir = document.getElementById("boxCaminhoDir");
-                console.log(dir);
+          <form>            
+            <TextField id="filled-basic" label="Insira aqui o caminho." variant="filled" autoComplete="off" />
+            <Button id="btnDir" variant="outlined" 
+            onClick={
+              () => {
+                if(document.getElementById("filled-basic")){
+                  let valueTextField = document.getElementById("filled-basic").value;
+                  alert(valueTextField);
+                }
               }
-
-            }/>
+            }>Outlined
+            </Button>
           </form>
         </div>
 

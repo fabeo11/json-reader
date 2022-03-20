@@ -7,8 +7,8 @@ class Header extends React.Component {
     state = {  }
     render() { 
         return (
-            <div className="container">
-
+            <div className="componentHeader">
+                <h1>&#129488; leitor json! &#129488;</h1>                
             </div>
         );
     }
